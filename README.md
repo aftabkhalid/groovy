@@ -1,4 +1,4 @@
-[Simpless for WordPress](http://aftabkhalid.github.com/groovy)
+[Groovy for Magento](http://aftabkhalid.github.com/groovy)
 =================
 
 Groovy is Magento theme for online store. Groovy based on magento blank theme and built with [Bootstrap] (http://getbootstrap.com). It's created and maintained by [Aftab Khalid](http://www.aftabkhalid.com).
