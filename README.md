@@ -1,17 +1,19 @@
 [Simpless for WordPress](http://aftabkhalid.github.com/simpless)
 =================
 
-Simpless is WordPress theme for personal blogging. Simpless created with [Underscore](http://underscores.me) and built with [Bootstrap] (http://getbootstrap.com). It's created and maintained by [Aftab Khalid](http://www.aftabkhalid.com).
-
-To get started, checkout http://www.aftabkhalid.com
-
+Groovy is Magento theme for online store. Groovy based on magento blank theme and built with [Bootstrap] (http://getbootstrap.com). It's created and maintained by [Aftab Khalid](http://www.aftabkhalid.com).
 
 
 Quick start
 -----------
 
-Clone the repo, `git clone git@github.com:aftabkhalid/simpless.git`, or [download the latest release](https://github.com/aftabkhalid/simpless/zipball/master).
+Clone the repo, `git clone git@github.com:aftabkhalid/groovy.git`, or [download the latest release](https://github.com/aftabkhalid/groovy/zipball/master).
 
+
+Contribute
+-----------
+
+If you have good knowledge about magento theme development please feel free to contribute on this repositry.
 
 
 Bug tracker
@@ -19,7 +21,7 @@ Bug tracker
 
 Have a bug? Please create an issue here on GitHub!
 
-https://github.com/aftabkhalid/simpless/issues
+https://github.com/aftabkhalid/groovy/issues
 
 
 
