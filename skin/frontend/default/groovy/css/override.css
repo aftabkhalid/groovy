@@ -1,0 +1,54 @@
+/*!
+ * Intensity Labs v1.0.0
+ *
+ * Copyright 2013 Intensity Labs
+ * All Rights Reserved.
+ *
+ * Author: Aftab Khalid
+ * Author website: www.aftabkhalid.com
+ *
+ */
+
+.btn-success {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #72a72b;
+  *background-color: #51a351;
+  background-image: -moz-linear-gradient(top, #85c62d, #72a72b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#85c62d), to(#72a72b));
+  background-image: -webkit-linear-gradient(top, #85c62d, #72a72b);
+  background-image: -o-linear-gradient(top, #85c62d, #72a72b);
+  background-image: linear-gradient(to bottom, #85c62d, #72a72b);
+  background-repeat: repeat-x;
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff85c62d', endColorstr='#ff72a72b', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  color: #ffffff;
+  background-color: #72a72b;
+  *background-color: #499249;
+}
+
+.btn-success:active,
+.btn-success.active {
+  background-color: #408140 \9;
+}
+
+hr {
+  border-top: 1px solid #e7e7e7;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding:0;
+  }
+  
+}

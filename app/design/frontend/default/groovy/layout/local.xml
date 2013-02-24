@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+    <default>
+		
+		<reference name="root">
+			<action method="setTemplate">
+				<template>page/3columns.phtml</template>
+				<!-- Mark root page block that template is applied -->
+				<action method="setIsHandle"><applied>1</applied></action>
+			</action>
+		</reference>
+ 
+        <!-- Remove callouts and rarely used stuff -->
+        <remove name="right.poll"/>
+        <remove name="right.permanent.callout"/>
+        <remove name="left.permanent.callout"/>
+        <remove name="paypal.partner.right.logo"/>
+ 
+        <!-- add the local stylesheet -->
+        <reference name="head">
+			<action method="addCss"><stylesheet>css/core.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/core-responsive.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/override.css</stylesheet></action>
+            <action method="addCss"><stylesheet>css/style.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/theme.css</stylesheet></action>
+			<action method="addJs"><script>varien/js.js</script></action>
+        </reference>
+
+    </default>
+</layout>
